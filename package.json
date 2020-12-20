@@ -1,0 +1,16 @@
+{
+  "name": "ituring-fetcher",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1"
+  },
+  "scripts": {
+    "fetch": "node ./index.js"
+  }
+}
